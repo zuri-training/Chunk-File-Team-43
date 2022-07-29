@@ -6,9 +6,7 @@ from django.db import models
 
 class accounts(models.Model):
     password = models.CharField(max_length=100, null=True)
-    username = models.CharField(max_length=20, null=True)
-    firstname = models.CharField(max_length=20, null=True)
-    lastname = models.CharField(max_length=20, null=True)
+    name = models.CharField(max_length=20, null=True)
     email = models.EmailField(max_length=30, null=True)
     date_joined = models.DateTimeField(auto_now_add=True, null=True)
     is_active = models.SmallIntegerField(null=True)
