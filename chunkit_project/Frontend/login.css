@@ -1,0 +1,153 @@
+@font-face {
+    font-family: satoshii;
+    src: url(/chunkit_project/Frontend/Fonts/Variable/Satoshi-Variable.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'satoshii', sans-serif;
+}
+img {
+    display: block;
+    margin: 4% auto;
+  }
+
+.container{
+    width: 50vw;
+    border: 1.5px solid #ff2c56;
+    margin: 15vh auto 10vh;
+    border-radius: 10px;
+    padding-bottom: 4%;
+}
+
+h4{
+    margin: 60px  auto 40px;
+    font-family: 'satoshii', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    
+
+    
+}
+main{
+    width: 35vw;
+    margin: 0 7.5vw;
+}
+
+input{
+    width: 35vw;
+    padding: 2% 0 2% 5%;
+    border-radius: 5px;
+    border: 1px solid #848484;
+
+}
+
+span > a{
+    color: #d32649;
+}
+
+form > a, .account, .or{
+    color: #848484;
+    font-size: 0.8rem;
+}
+
+.mail{
+    margin-bottom:20px;
+}
+.password{
+    margin-bottom: 15px;
+}
+
+.button{
+    width: 35vw;
+    margin: 20px auto;
+    padding:2% 0;
+    border-radius: 10px;
+    background-color: #D2042D;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.middle, h4{
+    
+    text-align:center;
+}
+
+.account{
+    font-weight: bold;
+    font-size: 1rem;
+    color: #a8a6a6;
+}
+
+.continue{
+   display: flex;
+   flex-direction: column;
+   font-weight: bold;
+}
+
+.continue > a{
+    color: #000;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.far{
+    color: #848484;
+    position: relative;
+    right: 10px;
+    top: 3px;
+}
+
+.fab{
+    margin-right: 7px;
+}
+
+.fa-github{
+    color: black;
+}
+
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+/* "OR" seperation */
+  .or {
+    overflow: hidden;
+    text-align: center;
+    margin: 5% 0;
+  }
+  
+  .or:before,
+  .or:after {
+    background-color:#848484;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .or:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .or:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
