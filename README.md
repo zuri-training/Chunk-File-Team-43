@@ -10,6 +10,24 @@ segments as requested by the user and return the chunked bits as it's original f
 type (CSV and JSON) but in a future update, Chunit will be used for more file types. By using our web app, users can easily split files into smaller segments or chunks which can either be downloaded immediately or saved for later download.
 We will have two modules, one for segmentation and the other for the splitting of files.</p>
 <br>
+<hr>
+<h2> Proposed Features </h2>
+<ol>
+<li>Chunk into bits</li>
+<li>File save mode</li>
+<li>Upload file</li>
+<li>View previous chunk</li>
+<li>download history</li>
+<li>Two factor authentication</li>
+<li>Select preferred chunk size</li>
+<li>Integration with other apps</li>
+<li>Select file format</li>
+<li>File Library</li>
+<li>Cloud Ulpload</li>
+</ol>
+<p> As development progress, other neccessary features will be added.</p>
+<hr>
+<br>
 <h2>Project Stacks</h2>
 <p>We will be using the following technologies to achieve the project</p>
 <h4>Backend Stacks</h4>
